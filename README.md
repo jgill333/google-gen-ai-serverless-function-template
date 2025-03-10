@@ -1,6 +1,10 @@
 # 🎁 🐍 🍏 Use Google Generative AI + Gemini + Siri + Google Cloud Run Functions Together   
 
-This a fully functioning example project for serverless `Generative AI`-as-a-Service.
+This a fully functioning example project for serverless `Generative AI`-as-a-Service and combining the apps and ecosystems of Google and Apple for practical automation and use cases.
+
+<p align="center">
+	<img src="https://github.com/user-attachments/assets/cdf25cca-cb9b-4876-b4b3-76d084c47c36">
+</p>
 
 ## Purpose
 
@@ -14,17 +18,19 @@ This project and the associated videos also show a practical use case of calling
 - Yes, this is using Gemini and Siri together.
 - Yes, this has function calling to enable Gemini to have access to Google search results.
 
-<p align="center">
-	<img src="https://github.com/user-attachments/assets/cdf25cca-cb9b-4876-b4b3-76d084c47c36">
-</p>
+![Diagram of Apple and Google Device and Ecosystem Interactions for This GeAI Example and Project](https://github.com/user-attachments/assets/f23ec04d-5bc1-4a28-a339-52181ed1f4b9)
 
 ### 📺 Video Intro (~3 min)
+
+Watch the [intro and overview video](https://youtu.be/WUHeLYqgo3w), https://youtu.be/WUHeLYqgo3w. 
 
 [![Video Intro of How To Use Apple Shortcuts with Google's Generative AI SDK, Google Gemini, and Google Cloud Run Functions](https://github.com/user-attachments/assets/b4796aeb-f592-4f83-8ae6-0aee47570c57)](https://youtu.be/WUHeLYqgo3w)
 
 ### 📺 Longer Video Explanation (~10 min)
 
-https://youtu.be/zqkeiW9V5ew
+Watch the [longer explainer video](https://youtu.be/zqkeiW9V5ew) for additional background and context, https://youtu.be/zqkeiW9V5ew.
+
+It even mentions [HyperCard](https://en.wikipedia.org/wiki/HyperCard).
 
 #### Connect
 
@@ -46,12 +52,12 @@ https://youtu.be/zqkeiW9V5ew
     $ python3 -m pip install virtualenv
     $ python3 -m virtualenv venv
     ```
-
-    Note: `virtual environments` may be created in a different way, depending on your `python` installation and configuration. For example, for some setups the `virtual environment` setup will look similar to this without a `python` version and using the `venv` package: 
-
-    ```console
-    $ python -m venv venv
-    ```
+> [!NOTE]
+> `virtual environments` may be created in a different way, depending on your `python` installation and configuration. For example, for some setups the `virtual environment` setup will look similar to this without a `python` version and using the `venv` package: 
+> 
+> ```console
+> $ python -m venv venv
+> ```
 
 3. Activate the `virtual environment` from within the directory of the local repository:
     ```console
@@ -79,7 +85,7 @@ https://youtu.be/zqkeiW9V5ew
     
 5. Get/set your `GEMINI_API_KEY`. Create a new API key at `google cloud` if you do not already have API a key(s).
   - See: https://ai.google.dev/gemini-api/docs/api-key and/or https://aistudio.google.com/app/apikey
-  - Copy the key to a storage mechanism of your choice.
+  - Copy the key to a storage mechanism of your choice
   - Set the value for `gemini_api_key` or `gemini_api_key_fallback = "REPLACE_WITH_YOUR_GEMINI_API_KEY"` to your `GEMINI_API_KEY`.
     - Optionally, set the `GEMINI_API_KEY` environment variable in a manner that is accessible within a Google Cloud Run Function
 
