@@ -24,7 +24,9 @@ This project and the associated videos also show a practical use case of calling
 
 Watch the [intro and overview video](https://youtu.be/WUHeLYqgo3w), https://youtu.be/WUHeLYqgo3w. 
 
-[![Video Intro of How To Use Apple Shortcuts with Google's Generative AI SDK, Google Gemini, and Google Cloud Run Functions](https://github.com/user-attachments/assets/b4796aeb-f592-4f83-8ae6-0aee47570c57)](https://youtu.be/WUHeLYqgo3w)
+<p align="center">
+  [![Video Intro of How To Use Apple Shortcuts with Google's Generative AI SDK, Google Gemini, and Google Cloud Run Functions](https://github.com/user-attachments/assets/b4796aeb-f592-4f83-8ae6-0aee47570c57)](https://youtu.be/WUHeLYqgo3w)
+</p>
 
 ### 📺 Longer Video Explanation (~10 min)
 
@@ -148,7 +150,9 @@ Generate AI or Large Language Model (LLM) output at the `/cloud-jokes` route, e.
 
 Click/tap the [video link](https://youtu.be/zqkeiW9V5ew) to learn more about how to call `google cloud run functions` from Apple Shortcuts.
 
-[![Video Explainer On Using Apple Shortcuts with Google Gemini and Google Cloud Run Functions](https://github.com/user-attachments/assets/46a55d0e-45a0-4ca7-93c4-1436d9ffaf63)](https://youtu.be/zqkeiW9V5ew)
+<p align="center">
+  [![Video Explainer On Using Apple Shortcuts with Google Gemini and Google Cloud Run Functions](https://github.com/user-attachments/assets/46a55d0e-45a0-4ca7-93c4-1436d9ffaf63)](https://youtu.be/zqkeiW9V5ew)
+</p>
 
 > [!TIP]
 > If you want to use a different voice for `siri` on your `ios` and Apple-related operating system, navigate to `Settings -> Accessibility -> Spoken Content -> Voices -> {Language: English}` and select from the list of available voices.
